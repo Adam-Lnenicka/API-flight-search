@@ -1,38 +1,36 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  margin:0;
+  margin-bottom: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.searchBar{
+  background-color: blue;
+  padding: 2em;
+  height: 50vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.flight-card{
+  width:90%;
+  margin: 1em auto;
+  background-color: rgb(209, 209, 209);
+  border-radius: 1em;
+  list-style: none;
+  padding: 2em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inner-card{
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+button{
+  text-transform:uppercase;
 }
