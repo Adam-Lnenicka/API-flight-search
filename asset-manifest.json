@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/API-flight-search/static/css/main.c1898e1f.chunk.css",
+    "main.js": "/API-flight-search/static/js/main.4fe65c3b.chunk.js",
+    "main.js.map": "/API-flight-search/static/js/main.4fe65c3b.chunk.js.map",
+    "runtime-main.js": "/API-flight-search/static/js/runtime-main.d8cc1f63.js",
+    "runtime-main.js.map": "/API-flight-search/static/js/runtime-main.d8cc1f63.js.map",
+    "static/js/2.70725fad.chunk.js": "/API-flight-search/static/js/2.70725fad.chunk.js",
+    "static/js/2.70725fad.chunk.js.map": "/API-flight-search/static/js/2.70725fad.chunk.js.map",
+    "static/js/3.3c0af29e.chunk.js": "/API-flight-search/static/js/3.3c0af29e.chunk.js",
+    "static/js/3.3c0af29e.chunk.js.map": "/API-flight-search/static/js/3.3c0af29e.chunk.js.map",
+    "index.html": "/API-flight-search/index.html",
+    "static/css/main.c1898e1f.chunk.css.map": "/API-flight-search/static/css/main.c1898e1f.chunk.css.map",
+    "static/js/2.70725fad.chunk.js.LICENSE.txt": "/API-flight-search/static/js/2.70725fad.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/API-flight-search/static/media/image.7ed2fc53.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d8cc1f63.js",
+    "static/js/2.70725fad.chunk.js",
+    "static/css/main.c1898e1f.chunk.css",
+    "static/js/main.4fe65c3b.chunk.js"
+  ]
+}
