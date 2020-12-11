@@ -50,35 +50,35 @@ function App() {
     <div className="App">
       <div className="searchBar">
       <h1>Flight Search</h1>
-      <form className="dropdown" onSubmit={searchFlights}>
-        <label className="label" htmlFor="departure"></label>
-          <select className="form-control form-control-sm w-100" name="departure" onChange={selectDeparture}>
-            <option>Choose your departure</option>
-            <option value="PRG">Prague</option>
-            <option value="TXL">Berlin</option>
-            <option value="WAW">Warsaw</option>
-            <option value="PED">Pardubice</option>
-            <option value="LON">London</option>
-            
-            
-          </select>
+      <form onSubmit={searchFlights}>
+        <div className="dropdown">
+          <div>
+            <label className="label" htmlFor="departure"><strong>Destination  </strong></label>
+            <select className="form-control form-control-sm w-100" name="departure" onChange={selectDeparture}>
+              <option>Choose your departure</option>
+              <option value="PRG">Prague</option>
+              <option value="TXL">Berlin</option>
+              <option value="WAW">Warsaw</option>
+              <option value="PED">Pardubice</option>
+              <option value="LON">London</option>  
+            </select>
+          </div>
           <br/><br/>
-        
-        <select className="form-control form-control-sm w-100" name="destination" onChange={selectDestination}>
-        <option>Choose your destination</option>
-            <option value="VLC">Valencia</option>
-            <option value="BCN">Barcelona</option>
-            <option value="MAD">Madrid</option>
-            <option value="MXP">Milano</option>
-            <option value="AIA">Athens</option>
-        </select>
+          <div>
+            <label className="label" htmlFor="departure"><strong>Departure   </strong></label>
+            <select className="form-control form-control-sm w-100" name="destination" onChange={selectDestination}>
+            <option>Choose your destination</option>
+                <option value="VLC">Valencia</option>
+                <option value="BCN">Barcelona</option>
+                <option value="MAD">Madrid</option>
+                <option value="MXP">Milano</option>
+                <option value="AIA">Athens</option>
+            </select>
+          </div>
         <br/><br/>
-
-            
-          <button className="button">search</button>
-
+      </div>
       </form>
-
+      
       </div>
 
     
